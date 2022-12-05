@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+section {
+  padding: 40px 100px;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+.del-btn {
+  background-color: red;
+  color: white;
+}
+
+.check-btn {
+  background-color: blue;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.badge {
+  right: 4px;
+  top: 4px;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items {
+  color: white;
+  font-size: 11px;
+}
+
