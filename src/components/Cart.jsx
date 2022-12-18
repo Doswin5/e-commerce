@@ -30,7 +30,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleEmptyCart, handleRemoveFromCart
   }
 
   return (
-    <section className="grid mt-[80px]">
+    <section className="grid mt-[80px] sm:px-[100px] px-[16px]">
       <h3 className="mb-2">Your Shopping Cart</h3>
       { !cart.line_items.length ? <EmptyCart /> : <FilledCart /> }
     </section>

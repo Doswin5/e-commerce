@@ -13,7 +13,7 @@ import Product from './Product'
 
 const Products = ({ products, onAddToCart }) => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[80px]">
+    <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[80px] sm:px-[100px] sm:py-[40px] px-[16px] py-[24px]">
       {products.map((product) => (
         <Product key={product.id} product={product} onAddToCart={onAddToCart} />
       ))}

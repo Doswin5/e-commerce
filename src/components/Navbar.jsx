@@ -6,7 +6,7 @@ import { BsCartCheck } from 'react-icons/bs'
 const Navbar = ({ totalItems }) => {
   const location = useLocation()
   return (
-    <nav className="w-full flex justify-between px-[100px] items-center h-[80px]">
+    <nav className="w-full flex justify-between sm:px-[100px] px-[16px] items-center h-[80px]">
       <Link to='/'>
         <img src={logo} alt="" className="logo" />
       </Link>
